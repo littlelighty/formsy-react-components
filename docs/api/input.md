@@ -3,10 +3,7 @@
 ## Props
 | Name                          | Type   | Default                          | Required | Description |
 | ----------------------------- | ------ | -------------------------------- | -------- | ----------- |
-| debounce                      | Object | {
-    blur: 0,
-    change: 500
-} | false    |             |
+| debounce                      | Object | { blur: 0, change: 500 }         | false    |             |
 | [type](#markdown-header-type) | Enum   | 'text'                           | false    |             |
 | updateOn                      | String | 'blur change'                    | false    |             |
 | value                         | String | ''                               | false    |             |
